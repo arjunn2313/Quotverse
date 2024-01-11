@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 export default function Likes() {
     const navigate = useNavigate()
   return (
-    <div className="" onClick={()=>navigate('/comments')}>
+    <div className="">
       <div className="border-b border-l border-r p-4 flex gap-5 cursor-pointer">
         <img src="assets\image 1.png" className="w-10 h-10" alt="User" />
         <div>
